@@ -1052,3 +1052,9 @@ figure.effect-bubba:hover .work-link-html {
 .phone-ico {
 	background: url('../images/phone.png') no-repeat center;
 }
+
+@media (max-width: 400px) {
+	figure.effect-bubba p {
+		padding: 10px 0;
+	}
+}
