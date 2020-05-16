@@ -116,7 +116,7 @@ ul {
   bottom: 0;
   left: 0;
   height: 2px;
-  width: 200px;
+  width: 235px;
   background: #58abd7;
 }
 
@@ -615,6 +615,10 @@ ul {
   font-size: 18px;
 }
 
+.news .owl-carousel .owl-item img {
+  min-height: 400px;
+  object-fit: cover;
+}
 .news-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -702,7 +706,8 @@ ul {
   bottom: 0;
   left: 0;
   height: 2px;
-  width: 130%;
+  width: 100%;
+  max-width: 185px;
   background: #58abd7;
 }
 
@@ -1109,5 +1114,17 @@ ul {
 @media (max-width: 576px) {
   .projects .heading .active::after {
     width: 100%;
+  }
+  .footer-top .f-logo {
+    display: none;
+  }
+}
+@media (max-width: 530px) {
+  .footer-top .f-contacts {
+    width: 100%;
+    list-style: none;
+  }
+  .footer-top .f-contacts li {
+    text-align: center;
   }
 }
