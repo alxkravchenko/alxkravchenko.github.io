@@ -944,6 +944,9 @@ figure.effect-bubba:hover p {
 	margin-left: 3em;
 }
 
+#contact .contact-container span {
+	color: #000;
+}
 /* Example for media query */
 @media screen and (max-width: 30.6em) { 
 
@@ -958,7 +961,12 @@ figure.effect-bubba:hover p {
 }
 
 
-
+@media (max-width: 1200px) {
+	#contact .contact-container span {
+		right: 0 !important;
+		color: #000;
+	}
+}
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 	.iconbox {
 		min-height: 280px;
@@ -1053,8 +1061,18 @@ figure.effect-bubba:hover .work-link-html {
 	background: url('../images/phone.png') no-repeat center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 490px) {
 	figure.effect-bubba p {
 		padding: 10px 0;
 	}
+	#contact .contact-item__inner {
+		flex-direction: column;
+		text-align: center;
+	}
+	#contact .contact-container {
+		width: 100%;
+		margin: 10px 0;
+		font-size: 16px;
+	}
+
 }
